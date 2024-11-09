@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVPPage</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <section id="container">
+    <header>
+      <h1 id="animation">Vorster & Rianca</h1>
+      <hr/>
+      <nav>
+        <ul style="list-style: none;">
+          <li class="navigation"><a href="Home.html" target="_parent">Home</a></li> 
+          <li class="navigation"><a href="Backstory.html" target="_parent">Backstory</a></li> 
+          <li class="navigation"><a href="Details.html" target="_parent">Details</a></li>
+          <li class="navigation"><a href="Gallery.html" target="_parent">Gallery</a></li>
+          <li class="navigation"><a href="RSVP.html" target="_parent">RSVP</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+    <article>
+      <div id="center">
+      <h1>Please enter the following details about yourself to RSVP</h1>
+      <!--Form-->
+      <form action="mailto:janitadevries40@gmail.com">
+        <fieldset>
+        <legend>RSVP form</legend>
+          <div class="row">
+          <div class="column">
+            
+          <h3>Please enter your invitation number:</h3><br/>
+          <input type="number" id="InvNo" min="0"><br/>
+          <h3>Name:</h3><br/>
+          <input type="text" id="Name"><br/>
+  
+          <h3>Surname:</h3><br/>
+          <input type="text" id="Surname"><br/>
+  
+          <h3>How many people are coming with you?</h3><br/>
+          <select NoPeople="Number of people coming" Size="Number_of_options">  
+              <option value="1">Just you</option>  
+              <option value="2">1 extra person</option>  
+              <option value="3">2 extra people</option>  
+              <option value="4">3 extra people</option>  
+            </select>
+          </div>
+          <div class="column">
+  
+          <h3>Are you allergic to any foods?</h3>
+            <input type="text" id="Allergies"><br/><br/>
+              
+          <h3>Please select your age:</h3>
+              <input type="radio" id="age1" name="age" value="30">
+              <label for="age1">18 - 30</label><br>
+              <input type="radio" id="age2" name="age" value="60">
+              <label for="age2">31 - 55</label><br>  
+              <input type="radio" id="age3" name="age" value="100">
+              <label for="age3">56 - 80</label><br>
+          </div>
+          <!--Submit-->
+          <h3>Please submit if you have finished filling in all the boxes.</h3>
+          <input type="image" src="https://media.istockphoto.com/photos/golden-check-mark-picture-id164805370?k=20&m=164805370&s=612x612&w=0&h=C33uNlFghnzAullqlCDSrpcgHgxpRchB16q_0FlAANQ=" alt="Submit" width="110" height="80">
+        </form>
+      </fieldset>
+    </article>
+    </section>
+    <footer>
+      Created by: Janita de Vries (577698), Johané Badenhorst (577401), Kaylee Carstens(577331), Morné du Plessis (577299) and Leonard Vermeer (577309)
+    </footer>
+  </section>
+</body>
+</html>
